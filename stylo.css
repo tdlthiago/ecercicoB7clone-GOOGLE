@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+li {
+    list-style: none;
+    padding: 15px;
+
+}
+
+ul {
+    display: flex;
+
+}
+
+.quadrados {
+    background-color: #ccc5b9;
+    width: 5px;
+    height: 4px;
+    display: flex;
+    margin: 2px;
+}
+
+.TodosPontos {
+    display: flex;
+    padding: 15px;
+}
+
+#minhaFoto {
+    height: 45px;
+    width: 35px;
+    border-radius: 25px;
+
+}
+
+.botao {
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+.corpo{
+    display: flex;
+    justify-content: center;
+}
+.base{
+    display: flex;
+    flex-direction: column;
+}
+.BarradePesquisa{
+    border-radius: 55px;
+    border: #e9edc9 solid ;
+    height: 40px;
+    width: 475px;
+    box-shadow: 3px ;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+button{
+    border: none;
+    padding: 9px;
+    border-radius: 9px;
+    margin: 6px;
+    margin-left: 75px;
+    margin-top: 35px;
+}
+footer{
+    background-color: #edede9;
+    margin-top: 150px;
+    height: 90px;
+}
+h3{
+    font-size: large;
+    margin-left: 15px;
+    padding: 5px;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+
+}
+p{
+    padding-right: 30px;
+    margin-left: 10px;
+}
+span{
+    padding: 25px;
+}
